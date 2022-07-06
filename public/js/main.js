@@ -12,5 +12,5 @@ left_side.addEventListener("mousemove",moveStick);
 document.getElementById('play_btn').addEventListener('click',trowTheBall);
 
 function moveStick(e){
-    player1.style.top = e.clientY - player1_rect.height +'px';
+    player1.style.top = e.clientY - player1_rect.height*1.2 +'px';
 }
