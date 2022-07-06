@@ -33,37 +33,36 @@ h1{
     border-right:3px dashed grey ;
 }
 .stick_player{
-
+    width: 13%;
 
     z-index: -1;
     border-radius: 30%;
 }
 
 #stick1{
-    width: 15%;
+    
     height: 35;
     position: absolute;
     top: 30%;
     transform: translate(-50%,-50%);
-    left: 2%;
+    left: 0%;
     transform: rotate(-90deg);
     
 
 }
 #stick2{
-    width: 15%;
+
     position: absolute;
     top: 30%;
     transform: translate(-50%,-50%);
-    right: 2%;
+    right: 0%;
     transform: rotate(-90deg);
 
 }
 
 #ball{
-    height: 15px;
-    width: 15px;
-    background-color: rgb(119, 180, 114);
+    height: 50px;
+    width:50px;
     border-radius:50% ;
     position: absolute;
     left: 50%;
@@ -88,6 +87,7 @@ h1{
     border: 2px solid white;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #point_player_1{
