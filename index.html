@@ -11,21 +11,21 @@
     <title>Document</title>
 </head>
 <body id="game">
+    <div id="controls_game">
+        <h1>star pong</h1>
+        <button id="play_btn">PLAY</button>
+        <div id="point_player_1" class="score">0</div>
+        <div id="point_player_2"  class="score">0</div>
+    </div>
+    
     <div id="game_box">
-        <div id="controls_game">
-            <h1>Pong Game</h1>
-            <button id="play_btn">START</button>
-            <div id="point_player_1" class="score">0</div>
-            <div id="point_player_2"  class="score">0</div>
-        </div>
-
-
         <div id="left_side"></div>
-        <div id='stick1' class="stick_player"></div>
-        <div id='stick2' class="stick_player"></div>
+        <img id='stick1' class="stick_player" src="./public/img/laserBleu.webp" alt="">
+        <img id='stick2' class="stick_player" src="./public/img/laserRouge.webp" alt="">
+      
         <div id="ball"></div>
 
     </div>
-    <script src="./public/js/main.js"></script>
+    <script type="module" src="./public/js/main.js"></script>
 </body>
 </html>
