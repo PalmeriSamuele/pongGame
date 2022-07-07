@@ -37,7 +37,7 @@ h1{
     border-right:3px dashed grey ;
 }
 .stick_player{
-    width: 13%;
+    width: 9%;
 
     z-index: -1;
     border-radius: 30%;
